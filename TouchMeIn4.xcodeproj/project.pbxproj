@@ -20,23 +20,6 @@
 		F646F5AC214902230066C23C /* TouchIDAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F646F5AB214902230066C23C /* TouchIDAuthentication.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F646F5A32148B04A0066C23C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F646F59E2148B04A0066C23C /* DuerDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D56D73191F614CBF00C0C4B9;
-			remoteInfo = DuerDemo;
-		};
-		F646F5A52148B04A0066C23C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F646F59E2148B04A0066C23C /* DuerDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D56D73321F614CC000C0C4B9;
-			remoteInfo = DuerDemoTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		2A1F59B61FA4E3D300986808 /* TouchMeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchMeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1F59B91FA4E3D300986808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +31,6 @@
 		2A1F59C81FA4E3D300986808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A1F59CA1FA4E3D300986808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A1F59D31FA4E47500986808 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		F646F59E2148B04A0066C23C /* DuerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DuerDemo.xcodeproj; path = "../../../project/soundbox/baidu/DuerHomeSDK 2018-06-07/DuerDemo/DuerDemo.xcodeproj"; sourceTree = "<group>"; };
 		F646F5A72148B05A0066C23C /* KeychainConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
 		F646F5A82148B05A0066C23C /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
 		F646F5AB214902230066C23C /* TouchIDAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDAuthentication.swift; sourceTree = "<group>"; };
@@ -92,7 +74,6 @@
 				2A1F59D31FA4E47500986808 /* LoginViewController.swift */,
 				F646F5A72148B05A0066C23C /* KeychainConfiguration.swift */,
 				F646F5A82148B05A0066C23C /* KeychainPasswordItem.swift */,
-				F646F59E2148B04A0066C23C /* DuerDemo.xcodeproj */,
 				2A1F59C21FA4E3D300986808 /* Main.storyboard */,
 				2A1F59C51FA4E3D300986808 /* Assets.xcassets */,
 				2A1F59C71FA4E3D300986808 /* LaunchScreen.storyboard */,
@@ -101,15 +82,6 @@
 				F646F5AB214902230066C23C /* TouchIDAuthentication.swift */,
 			);
 			path = TouchMeIn4;
-			sourceTree = "<group>";
-		};
-		F646F59F2148B04A0066C23C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F646F5A42148B04A0066C23C /* DuerDemo.app */,
-				F646F5A62148B04A0066C23C /* DuerDemoTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,35 +131,12 @@
 			mainGroup = 2A1F59AD1FA4E3D300986808;
 			productRefGroup = 2A1F59B71FA4E3D300986808 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = F646F59F2148B04A0066C23C /* Products */;
-					ProjectRef = F646F59E2148B04A0066C23C /* DuerDemo.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				2A1F59B51FA4E3D300986808 /* TouchMeIn */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		F646F5A42148B04A0066C23C /* DuerDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = DuerDemo.app;
-			remoteRef = F646F5A32148B04A0066C23C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F646F5A62148B04A0066C23C /* DuerDemoTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = DuerDemoTests.xctest;
-			remoteRef = F646F5A52148B04A0066C23C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2A1F59B41FA4E3D300986808 /* Resources */ = {
